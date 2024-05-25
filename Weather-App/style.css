@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1474882909/photo/large-cumulus-congestus-cloud-illuminated-by-twilight-light-floating-imposingly-under-a-blue.jpg?s=2048x2048&w=is&k=20&c=a7H0mV_7mMBn6u4O9l5IpEuwZk8XOZJov3lLp70Dlmc=);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: aqua;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1674684220582-5f104666708f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D);
+    color: white;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+#city {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size:20px;
+}
+.weather-info:hover{
+     background-color: cornsilk;
+     color: black;
+     border-radius: 5px;  
+}
+.weather-info {
+     display: none;
+}
